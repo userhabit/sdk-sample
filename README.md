@@ -6,12 +6,12 @@
 ### 사용법
 
 
-`<proj>\app\src\main\AndroidManifest.xml` 에서 api key 만 각자의 api key 로 변경해주자.
+`<proj>\app\src\main\AndroidManifest.xml` 에서 api key 만 각자의 api key 로 변경해주자. 아래는 `dev_xxxxxxxxxx` 가 key 인 경우이다.
 
 
 ```xml
 ...
-<meta-data android:name="dev_84ff2c24bba969e74aeae4b56f41cb19a87d71e2" android:value="API KEY" />
+<meta-data android:name="userhabitApiKey" android:value="dev_xxxxxxxxxx" />
 
 ```
 

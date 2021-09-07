@@ -8,6 +8,7 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
     <application
+        android:name="com.test.myapplication.MainApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -21,7 +22,7 @@
              android:required="false" />
 
         <!--해당하는 API KEY 발급 받기-->
-        <meta-data android:name="dev_84ff2c24bba969e74aeae4b56f41cb19a87d71e2" android:value="API KEY" />
+        <meta-data android:name="userhabitApiKey" android:value="dev_xxxxxxxxxxxxxx" />
 
         <!--유저해빗 서비스 등록하기-->
         <service android:name="io.userhabit.service.main.service.UserhabitService" />
