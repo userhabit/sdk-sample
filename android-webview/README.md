@@ -3,6 +3,15 @@
 
 ## Sample App
 
+### 소스를 Android Studio 에서 project build 하기
+
+1. Android Studio 실행
+2. `File --> New --> Import Project`
+3. 소스 root directory 선택 : <sdk-sample_root>/android-webview
+4. gradle sync 를 하고, 
+5. `Build --> Make project` 또는 `Run` 또는 `Debug`를 한다.
+
+
 ### 사용법
 
 
