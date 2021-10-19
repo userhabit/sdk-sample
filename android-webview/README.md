@@ -12,7 +12,7 @@
 5. `Build --> Make project` 또는 `Run` 또는 `Debug`를 한다.
 
 
-### 사용법
+### UserHabit SDK 사용법
 
 
 `<proj>\app\src\main\AndroidManifest.xml` 에서 api key 만 각자의 api key 로 변경해주자. 아래는 `dev_xxxxxxxxxx` 가 key 인 경우이다.
